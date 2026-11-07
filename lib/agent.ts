@@ -286,13 +286,24 @@ async function runGroq(messages: ChatMessage[], ctx: ToolContext, apiKey: string
   return { reply: "Here's what I found.", cards: ctx.cards, state: ctx.state, engine: "groq" };
 }
 
+// Caps LLM spend per server instance per hour; beyond it the rule engine answers.
+const GROQ_CALLS_PER_HOUR = 600;
+let groqWindow = { start: Date.now(), calls: 0 };
+
+function takeGroqBudget(): boolean {
+  if (Date.now() - groqWindow.start > 3_600_000) groqWindow = { start: Date.now(), calls: 0 };
+  if (groqWindow.calls >= GROQ_CALLS_PER_HOUR) return false;
+  groqWindow.calls++;
+  return true;
+}
+
 export async function runAgent(
   messages: ChatMessage[],
   scene: DecodedScene | null,
   state: SearchState,
 ): Promise<ChatResponse> {
   const apiKey = process.env.GROQ_API_KEY?.trim();
-  if (apiKey) {
+  if (apiKey && takeGroqBudget()) {
     try {
       return await runGroq(messages, { scene, state: { ...state }, cards: [] }, apiKey);
     } catch (error) {
