@@ -1,42 +1,27 @@
 import { z } from "zod";
-import { EMBEDDING_DIM } from "./model";
+import { CLIP_DIM, TEXT_DIM } from "./model";
 
-const box = z.object({
-  x: z.number().finite().min(0).max(20000),
-  y: z.number().finite().min(0).max(20000),
-  w: z.number().finite().min(1).max(20000),
-  h: z.number().finite().min(1).max(20000),
-});
+// int8-packed vectors: dim bytes → ceil(dim / 3) * 4 base64 chars.
+const packed = (dim: number) =>
+  z.object({
+    s: z.number().finite().positive().max(10),
+    q: z.string().length(Math.ceil(dim / 3) * 4),
+  });
 
-// int8-packed 768-d vector → 1024 base64 chars.
-const packed = z.object({
-  s: z.number().finite().positive().max(10),
-  q: z.string().length(Math.ceil(EMBEDDING_DIM / 3) * 4),
-});
-
-const crop = z.object({ box, v: packed });
+const vectors = z.object({ t: packed(TEXT_DIM), v: packed(CLIP_DIM).nullable().optional() });
 
 export const chatRequestSchema = z.object({
-  intent: z.enum(["scan", "message"]).default("message"),
   messages: z
     .array(z.object({ role: z.enum(["user", "assistant"]), content: z.string().max(1000) }))
-    .max(12)
-    .default([]),
-  scene: z
-    .object({
-      width: z.number().int().min(1).max(20000),
-      height: z.number().int().min(1).max(20000),
-      crops: z.array(crop).max(64),
-      selection: crop.nullable().optional(),
-    })
-    .nullable()
-    .optional(),
+    .min(1)
+    .max(12),
+  query: z.object({ message: vectors, combined: vectors.nullable().optional() }).nullable().optional(),
   state: z
     .object({
-      object: z.string().max(64).nullable().optional(),
+      anchor: z.string().max(600).nullable().optional(),
+      category: z.string().max(64).nullable().optional(),
       color: z.string().max(16).nullable().optional(),
       maxPriceCents: z.number().int().min(0).max(100_000_000).nullable().optional(),
-      box: box.nullable().optional(),
       resultIds: z.array(z.string().max(16)).max(8).optional(),
     })
     .default({}),

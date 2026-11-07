@@ -34,8 +34,8 @@ function fromBase64(b64: string): Uint8Array {
   return out;
 }
 
-// Symmetric int8 quantization with a per-vector scale: 768 bytes per vector
-// with negligible cosine error, small enough to send crops on every chat turn.
+// Symmetric int8 quantization with a per-vector scale: one byte per dimension
+// with negligible cosine error, small enough to send on every chat turn.
 export function packVector(v: ArrayLike<number>): PackedVector {
   let max = 0;
   for (let i = 0; i < v.length; i++) max = Math.max(max, Math.abs(v[i]));

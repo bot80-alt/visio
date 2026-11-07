@@ -1,143 +1,40 @@
-import { COLORS } from "./concepts";
+// Lightweight, deterministic parsing for the parts of a request that need to be
+// exact (budgets, ordinals, quantities, purchase verbs). Everything about *what*
+// the user wants is left to the embedding models.
 
-// Everyday words people use for the catalog's object concepts. Longer phrases
-// are matched first so "smart speaker" wins over "speaker".
-const SYNONYMS: Record<string, string> = {
-  "table lamp": "table lamp",
-  "desk lamp": "table lamp",
-  lamp: "table lamp",
-  light: "table lamp",
-  "over-ear headphones": "headphones",
-  headphones: "headphones",
-  headphone: "headphones",
-  headset: "headphones",
-  cans: "headphones",
-  earbuds: "wireless earbuds",
-  airpods: "wireless earbuds",
-  earphones: "wireless earbuds",
-  sunglasses: "sunglasses",
-  shades: "sunglasses",
-  glasses: "sunglasses",
-  "drinking glass": "drinking glass",
-  tumbler: "drinking glass",
-  "smart watch": "smartwatch",
-  smartwatch: "smartwatch",
-  "apple watch": "smartwatch",
-  wristwatch: "wristwatch",
-  watch: "wristwatch",
-  rolex: "wristwatch",
-  sneakers: "sneakers",
-  sneaker: "sneakers",
-  trainers: "sneakers",
-  kicks: "sneakers",
-  jordans: "sneakers",
-  shoes: "sneakers",
-  heels: "high heels",
-  "high heels": "high heels",
-  pumps: "high heels",
-  slippers: "slippers",
-  motorcycle: "motorcycle",
-  motorbike: "motorcycle",
-  bike: "motorcycle",
-  sportbike: "motorcycle",
-  scooter: "scooter",
-  phone: "smartphone",
-  smartphone: "smartphone",
-  iphone: "smartphone",
-  handbag: "handbag",
-  purse: "handbag",
-  bag: "handbag",
-  clutch: "handbag",
-  backpack: "backpack",
-  rucksack: "backpack",
-  "potted plant": "potted plant",
-  plant: "potted plant",
-  "plant pot": "plant pot",
-  planter: "plant pot",
-  pot: "plant pot",
-  "office chair": "office chair",
-  chair: "office chair",
-  sofa: "sofa",
-  couch: "sofa",
-  "bedside table": "bedside table",
-  nightstand: "bedside table",
-  "side table": "bedside table",
-  bed: "bed",
-  laptop: "laptop",
-  macbook: "laptop",
-  notebook: "laptop",
-  "smart speaker": "smart speaker",
-  speaker: "smart speaker",
-  perfume: "perfume bottle",
-  fragrance: "perfume bottle",
-  cologne: "perfume bottle",
-  gown: "gown",
-  "corset dress": "corset dress",
-  corset: "corset dress",
-  dress: "dress",
-  frock: "dress",
-  suit: "suit",
-  "t-shirt": "t-shirt",
-  tshirt: "t-shirt",
-  tee: "t-shirt",
-  shirt: "shirt",
-  flannel: "shirt",
-  earrings: "earrings",
-  earring: "earrings",
-  cup: "cup",
-  mug: "cup",
-  plate: "plate",
-  tray: "tray",
-  pan: "frying pan",
-  blender: "blender",
-  "photo frame": "photo frame",
-  frame: "photo frame",
-  picture: "photo frame",
-  tablet: "tablet",
-  ipad: "tablet",
-  basketball: "basketball",
-  football: "football",
-  "tennis racket": "tennis racket",
-  racket: "tennis racket",
-};
+export const COLORS = [
+  "black",
+  "white",
+  "silver",
+  "gold",
+  "red",
+  "blue",
+  "green",
+  "grey",
+  "brown",
+  "pink",
+  "purple",
+  "yellow",
+  "orange",
+] as const;
 
 const COLOR_SYNONYMS: Record<string, string> = {
   gray: "grey",
   golden: "gold",
   brass: "gold",
-  steel: "silver",
   chrome: "silver",
   crimson: "red",
+  scarlet: "red",
   navy: "blue",
   teal: "blue",
   olive: "green",
   emerald: "green",
   tan: "brown",
-  leather: "brown",
   ivory: "white",
   cream: "white",
   rose: "pink",
-  matte: "black",
+  violet: "purple",
 };
-
-const SORTED_SYNONYMS = Object.keys(SYNONYMS).sort((a, b) => b.length - a.length);
-
-function escape(s: string) {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-export function findObject(text: string, known: string[]): string | null {
-  const t = text.toLowerCase();
-  for (const o of [...known].sort((a, b) => b.length - a.length)) {
-    if (new RegExp(`\\b${escape(o)}s?\\b`).test(t)) return o;
-  }
-  for (const word of SORTED_SYNONYMS) {
-    if (new RegExp(`\\b${escape(word)}\\b`).test(t) && known.includes(SYNONYMS[word])) {
-      return SYNONYMS[word];
-    }
-  }
-  return null;
-}
 
 export function findColor(text: string): string | null {
   const t = text.toLowerCase();
@@ -149,7 +46,9 @@ export function findColor(text: string): string | null {
 }
 
 export function findMaxPriceCents(text: string): number | null {
-  const m = text.toLowerCase().match(/(?:under|below|less than|max|cheaper than|up to|<)\s*\$?\s*([\d,]+(?:\.\d+)?)\s*(k)?/);
+  const m = text
+    .toLowerCase()
+    .match(/(?:under|below|less than|max|cheaper than|up to|within|<)\s*\$?\s*([\d,]+(?:\.\d+)?)\s*(k)?/);
   if (!m) return null;
   const value = parseFloat(m[1].replace(/,/g, "")) * (m[2] ? 1000 : 1);
   return Number.isFinite(value) ? Math.round(value * 100) : null;
@@ -170,12 +69,33 @@ const ORDINALS: Record<string, number> = {
 export type RuleIntent =
   | { kind: "buy"; index: number | null; quantity: number }
   | { kind: "cheaper" }
-  | { kind: "search"; object: string | null; color: string | null; maxPriceCents: number | null }
-  | { kind: "help" };
+  | { kind: "help" }
+  | { kind: "search"; color: string | null; maxPriceCents: number | null };
 
-export function parseIntent(text: string, known: string[]): RuleIntent {
+const REFINEMENT =
+  /^(?:(?:but|and|now|ok|okay|actually|maybe|hmm)[\s,]+)?(?:(?:in|a|the|any|something|one)\s+)?(?:(?:more|less|cheaper|lighter|darker|bigger|smaller|longer|shorter|different|another|other)\b|(?:with|without|in|under|below|less than|up to)\b)|^(?:[a-z]+\s+)?(?:instead|version|color|colour)\b/i;
+
+/** Short follow-ups like "in black", "under $50" or "without the strap" refine the active description. */
+export function isRefinement(text: string): boolean {
+  const t = text.trim().toLowerCase();
+  const words = t.split(/\s+/).length;
+  if (words > 8) return false;
+  if (REFINEMENT.test(t)) return true;
+  if (words > 4 || (findColor(t) === null && findMaxPriceCents(t) === null)) return false;
+  // "black one please" refines; "red lipstick" names a new product.
+  const colorWords = [...COLORS, ...Object.keys(COLOR_SYNONYMS)].join("|");
+  const rest = t
+    .replace(/(?:under|below|less than|max|up to|within|<)\s*\$?\s*[\d,]+(?:\.\d+)?\s*k?/g, " ")
+    .replace(new RegExp(`\\b(?:${colorWords})\\b`, "g"), " ")
+    .replace(/\b(?:in|a|an|the|one|ones|please|version|instead|maybe|but|and|now|or|ish|color|colour|same|it|that)\b/g, " ")
+    .replace(/[^a-z]+/g, "");
+  return rest.length === 0;
+}
+
+export function parseIntent(text: string): RuleIntent {
   const t = text.toLowerCase().trim();
-  const buy = /\b(buy|purchase|checkout|check out|order (it|this|that|one|the)|i'?ll take|get (it|this|that|the)|add to cart|pay for)\b/.test(t);
+  const buy =
+    /\b(buy|purchase|checkout|check out|order (it|this|that|one|the)|i'?ll take|get (it|this|that|the)|add to cart|pay for)\b/.test(t);
   if (buy) {
     let index: number | null = null;
     const hash = t.match(/#\s*(\d)/);
@@ -187,14 +107,9 @@ export function parseIntent(text: string, known: string[]): RuleIntent {
     const quantity = qty ? Math.min(5, Math.max(1, parseInt(qty[1], 10))) : 1;
     return { kind: "buy", index, quantity };
   }
-  const object = findObject(t, known);
-  const color = findColor(t);
-  const maxPriceCents = findMaxPriceCents(t);
-  if (!object && !color && maxPriceCents == null && /\b(cheaper|less expensive|budget|affordable)\b/.test(t)) {
+  if (/^(?:something |anything |show me (?:something )?|any )?(?:cheaper|less expensive|more affordable)\b/.test(t)) {
     return { kind: "cheaper" };
   }
-  if (!object && !color && maxPriceCents == null && /^(hi|hello|hey|help|what can you do)/.test(t)) {
-    return { kind: "help" };
-  }
-  return { kind: "search", object, color, maxPriceCents };
+  if (/^(hi|hello|hey|help|what can you do|how does this work)\b/.test(t)) return { kind: "help" };
+  return { kind: "search", color: findColor(t), maxPriceCents: findMaxPriceCents(t) };
 }

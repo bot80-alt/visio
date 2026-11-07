@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Visio — shop any frame of cinema",
+  title: "Visio — describe it, we'll find it",
   description:
-    "Point at anything in a film frame. Visio finds it in a real catalog and checks you out in one tap with PayPal Fastlane, behind an AI Trust Gate.",
+    "Say or type what you saw in a film, in your own words. On-device models match the description to a real catalog, and PayPal Fastlane checks you out behind an AI Trust Gate.",
 };
 
 export const viewport: Viewport = {

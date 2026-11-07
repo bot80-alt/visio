@@ -1,10 +1,93 @@
 [
   {
+    "id": "p1",
+    "title": "Essence Mascara Lash Princess",
+    "brand": "Essence",
+    "category": "beauty",
+    "tags": [
+      "beauty",
+      "mascara"
+    ],
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "priceCents": 999,
+    "currency": "USD",
+    "rating": 2.56,
+    "stock": 99,
+    "image": "/catalog/p1.webp"
+  },
+  {
+    "id": "p2",
+    "title": "Eyeshadow Palette with Mirror",
+    "brand": "Glamour Beauty",
+    "category": "beauty",
+    "tags": [
+      "beauty",
+      "eyeshadow"
+    ],
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    "priceCents": 1999,
+    "currency": "USD",
+    "rating": 2.86,
+    "stock": 34,
+    "image": "/catalog/p2.webp"
+  },
+  {
+    "id": "p3",
+    "title": "Powder Canister",
+    "brand": "Velvet Touch",
+    "category": "beauty",
+    "tags": [
+      "beauty",
+      "face powder"
+    ],
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    "priceCents": 1499,
+    "currency": "USD",
+    "rating": 4.64,
+    "stock": 89,
+    "image": "/catalog/p3.webp"
+  },
+  {
+    "id": "p4",
+    "title": "Red Lipstick",
+    "brand": "Chic Cosmetics",
+    "category": "beauty",
+    "tags": [
+      "beauty",
+      "lipstick"
+    ],
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "priceCents": 1299,
+    "currency": "USD",
+    "rating": 4.36,
+    "stock": 91,
+    "image": "/catalog/p4.webp"
+  },
+  {
+    "id": "p5",
+    "title": "Red Nail Polish",
+    "brand": "Nail Couture",
+    "category": "beauty",
+    "tags": [
+      "beauty",
+      "nail polish"
+    ],
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "priceCents": 899,
+    "currency": "USD",
+    "rating": 4.32,
+    "stock": 79,
+    "image": "/catalog/p5.webp"
+  },
+  {
     "id": "p6",
     "title": "Calvin Klein CK One",
     "brand": "Calvin Klein",
     "category": "fragrances",
-    "object": "perfume bottle",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
     "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
     "priceCents": 4999,
     "currency": "USD",
@@ -17,7 +100,10 @@
     "title": "Chanel Coco Noir Eau De",
     "brand": "Chanel",
     "category": "fragrances",
-    "object": "perfume bottle",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
     "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
     "priceCents": 12999,
     "currency": "USD",
@@ -30,7 +116,10 @@
     "title": "Dior J'adore",
     "brand": "Dior",
     "category": "fragrances",
-    "object": "perfume bottle",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
     "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
     "priceCents": 8999,
     "currency": "USD",
@@ -43,7 +132,10 @@
     "title": "Dolce Shine Eau de",
     "brand": "Dolce & Gabbana",
     "category": "fragrances",
-    "object": "perfume bottle",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
     "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
     "priceCents": 6999,
     "currency": "USD",
@@ -56,7 +148,10 @@
     "title": "Gucci Bloom Eau de",
     "brand": "Gucci",
     "category": "fragrances",
-    "object": "perfume bottle",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
     "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
     "priceCents": 7999,
     "currency": "USD",
@@ -69,7 +164,10 @@
     "title": "Annibale Colombo Bed",
     "brand": "Annibale Colombo",
     "category": "furniture",
-    "object": "bed",
+    "tags": [
+      "furniture",
+      "beds"
+    ],
     "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
     "priceCents": 189999,
     "currency": "USD",
@@ -82,7 +180,10 @@
     "title": "Annibale Colombo Sofa",
     "brand": "Annibale Colombo",
     "category": "furniture",
-    "object": "sofa",
+    "tags": [
+      "furniture",
+      "sofas"
+    ],
     "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
     "priceCents": 249999,
     "currency": "USD",
@@ -95,7 +196,10 @@
     "title": "Bedside Table African Cherry",
     "brand": "Furniture Co.",
     "category": "furniture",
-    "object": "bedside table",
+    "tags": [
+      "furniture",
+      "bedside tables"
+    ],
     "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
     "priceCents": 29999,
     "currency": "USD",
@@ -108,7 +212,10 @@
     "title": "Knoll Saarinen Executive Conference Chair",
     "brand": "Knoll",
     "category": "furniture",
-    "object": "office chair",
+    "tags": [
+      "furniture",
+      "office chairs"
+    ],
     "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
     "priceCents": 49999,
     "currency": "USD",
@@ -117,11 +224,454 @@
     "image": "/catalog/p14.webp"
   },
   {
+    "id": "p15",
+    "title": "Wooden Bathroom Sink With Mirror",
+    "brand": "Bath Trends",
+    "category": "furniture",
+    "tags": [
+      "furniture",
+      "bathroom"
+    ],
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "priceCents": 79999,
+    "currency": "USD",
+    "rating": 3.59,
+    "stock": 7,
+    "image": "/catalog/p15.webp"
+  },
+  {
+    "id": "p16",
+    "title": "Apple",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "fruits"
+    ],
+    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+    "priceCents": 199,
+    "currency": "USD",
+    "rating": 4.19,
+    "stock": 8,
+    "image": "/catalog/p16.webp"
+  },
+  {
+    "id": "p17",
+    "title": "Beef Steak",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "meat"
+    ],
+    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+    "priceCents": 1299,
+    "currency": "USD",
+    "rating": 4.47,
+    "stock": 86,
+    "image": "/catalog/p17.webp"
+  },
+  {
+    "id": "p18",
+    "title": "Cat Food",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "pet supplies",
+      "cat food"
+    ],
+    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+    "priceCents": 899,
+    "currency": "USD",
+    "rating": 3.13,
+    "stock": 46,
+    "image": "/catalog/p18.webp"
+  },
+  {
+    "id": "p19",
+    "title": "Chicken Meat",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "meat"
+    ],
+    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+    "priceCents": 999,
+    "currency": "USD",
+    "rating": 3.19,
+    "stock": 97,
+    "image": "/catalog/p19.webp"
+  },
+  {
+    "id": "p20",
+    "title": "Cooking Oil",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "cooking essentials"
+    ],
+    "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+    "priceCents": 499,
+    "currency": "USD",
+    "rating": 4.8,
+    "stock": 10,
+    "image": "/catalog/p20.webp"
+  },
+  {
+    "id": "p21",
+    "title": "Cucumber",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "vegetables"
+    ],
+    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+    "priceCents": 149,
+    "currency": "USD",
+    "rating": 4.07,
+    "stock": 84,
+    "image": "/catalog/p21.webp"
+  },
+  {
+    "id": "p22",
+    "title": "Dog Food",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "pet supplies",
+      "dog food"
+    ],
+    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+    "priceCents": 1099,
+    "currency": "USD",
+    "rating": 4.55,
+    "stock": 71,
+    "image": "/catalog/p22.webp"
+  },
+  {
+    "id": "p23",
+    "title": "Eggs",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "dairy"
+    ],
+    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+    "priceCents": 299,
+    "currency": "USD",
+    "rating": 2.53,
+    "stock": 9,
+    "image": "/catalog/p23.webp"
+  },
+  {
+    "id": "p24",
+    "title": "Fish Steak",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "seafood"
+    ],
+    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+    "priceCents": 1499,
+    "currency": "USD",
+    "rating": 3.78,
+    "stock": 74,
+    "image": "/catalog/p24.webp"
+  },
+  {
+    "id": "p25",
+    "title": "Green Bell Pepper",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "vegetables"
+    ],
+    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+    "priceCents": 129,
+    "currency": "USD",
+    "rating": 3.25,
+    "stock": 33,
+    "image": "/catalog/p25.webp"
+  },
+  {
+    "id": "p26",
+    "title": "Green Chili Pepper",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "vegetables"
+    ],
+    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+    "priceCents": 99,
+    "currency": "USD",
+    "rating": 3.66,
+    "stock": 3,
+    "image": "/catalog/p26.webp"
+  },
+  {
+    "id": "p27",
+    "title": "Honey Jar",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "condiments"
+    ],
+    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+    "priceCents": 699,
+    "currency": "USD",
+    "rating": 3.97,
+    "stock": 34,
+    "image": "/catalog/p27.webp"
+  },
+  {
+    "id": "p28",
+    "title": "Ice Cream",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "desserts"
+    ],
+    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+    "priceCents": 549,
+    "currency": "USD",
+    "rating": 3.39,
+    "stock": 27,
+    "image": "/catalog/p28.webp"
+  },
+  {
+    "id": "p29",
+    "title": "Juice",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "beverages"
+    ],
+    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+    "priceCents": 399,
+    "currency": "USD",
+    "rating": 3.94,
+    "stock": 50,
+    "image": "/catalog/p29.webp"
+  },
+  {
+    "id": "p30",
+    "title": "Kiwi",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "fruits"
+    ],
+    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+    "priceCents": 249,
+    "currency": "USD",
+    "rating": 4.93,
+    "stock": 99,
+    "image": "/catalog/p30.webp"
+  },
+  {
+    "id": "p31",
+    "title": "Lemon",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "fruits"
+    ],
+    "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+    "priceCents": 79,
+    "currency": "USD",
+    "rating": 3.53,
+    "stock": 31,
+    "image": "/catalog/p31.webp"
+  },
+  {
+    "id": "p32",
+    "title": "Milk",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "dairy"
+    ],
+    "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+    "priceCents": 349,
+    "currency": "USD",
+    "rating": 2.61,
+    "stock": 27,
+    "image": "/catalog/p32.webp"
+  },
+  {
+    "id": "p33",
+    "title": "Mulberry",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "fruits"
+    ],
+    "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+    "priceCents": 499,
+    "currency": "USD",
+    "rating": 4.95,
+    "stock": 99,
+    "image": "/catalog/p33.webp"
+  },
+  {
+    "id": "p34",
+    "title": "Nescafe Coffee",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "beverages",
+      "coffee"
+    ],
+    "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+    "priceCents": 799,
+    "currency": "USD",
+    "rating": 4.82,
+    "stock": 57,
+    "image": "/catalog/p34.webp"
+  },
+  {
+    "id": "p35",
+    "title": "Potatoes",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "vegetables"
+    ],
+    "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+    "priceCents": 229,
+    "currency": "USD",
+    "rating": 4.81,
+    "stock": 13,
+    "image": "/catalog/p35.webp"
+  },
+  {
+    "id": "p36",
+    "title": "Protein Powder",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "health supplements"
+    ],
+    "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
+    "priceCents": 1999,
+    "currency": "USD",
+    "rating": 4.18,
+    "stock": 80,
+    "image": "/catalog/p36.webp"
+  },
+  {
+    "id": "p37",
+    "title": "Red Onions",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "vegetables"
+    ],
+    "description": "Flavorful and aromatic red onions, perfect for adding depth to your savory dishes.",
+    "priceCents": 199,
+    "currency": "USD",
+    "rating": 4.2,
+    "stock": 82,
+    "image": "/catalog/p37.webp"
+  },
+  {
+    "id": "p38",
+    "title": "Rice",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "grains"
+    ],
+    "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
+    "priceCents": 599,
+    "currency": "USD",
+    "rating": 3.18,
+    "stock": 59,
+    "image": "/catalog/p38.webp"
+  },
+  {
+    "id": "p39",
+    "title": "Soft Drinks",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "beverages"
+    ],
+    "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+    "priceCents": 199,
+    "currency": "USD",
+    "rating": 4.75,
+    "stock": 53,
+    "image": "/catalog/p39.webp"
+  },
+  {
+    "id": "p40",
+    "title": "Strawberry",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "fruits"
+    ],
+    "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
+    "priceCents": 399,
+    "currency": "USD",
+    "rating": 3.08,
+    "stock": 46,
+    "image": "/catalog/p40.webp"
+  },
+  {
+    "id": "p41",
+    "title": "Tissue Paper Box",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "household essentials"
+    ],
+    "description": "Convenient tissue paper box for everyday use, providing soft and absorbent tissues.",
+    "priceCents": 249,
+    "currency": "USD",
+    "rating": 2.69,
+    "stock": 86,
+    "image": "/catalog/p41.webp"
+  },
+  {
+    "id": "p42",
+    "title": "Water",
+    "brand": null,
+    "category": "groceries",
+    "tags": [
+      "beverages"
+    ],
+    "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
+    "priceCents": 99,
+    "currency": "USD",
+    "rating": 4.96,
+    "stock": 53,
+    "image": "/catalog/p42.webp"
+  },
+  {
+    "id": "p43",
+    "title": "Decoration Swing",
+    "brand": null,
+    "category": "home-decoration",
+    "tags": [
+      "home decor",
+      "swing"
+    ],
+    "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+    "priceCents": 5999,
+    "currency": "USD",
+    "rating": 3.16,
+    "stock": 47,
+    "image": "/catalog/p43.webp"
+  },
+  {
     "id": "p44",
     "title": "Family Tree Photo Frame",
     "brand": null,
     "category": "home-decoration",
-    "object": "photo frame",
+    "tags": [
+      "home decor",
+      "photo frame"
+    ],
     "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
     "priceCents": 2999,
     "currency": "USD",
@@ -134,7 +684,10 @@
     "title": "House Showpiece Plant",
     "brand": null,
     "category": "home-decoration",
-    "object": "potted plant",
+    "tags": [
+      "home decor",
+      "artificial plants"
+    ],
     "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
     "priceCents": 3999,
     "currency": "USD",
@@ -147,7 +700,10 @@
     "title": "Plant Pot",
     "brand": null,
     "category": "home-decoration",
-    "object": "plant pot",
+    "tags": [
+      "home decor",
+      "plant accessories"
+    ],
     "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
     "priceCents": 1499,
     "currency": "USD",
@@ -160,7 +716,10 @@
     "title": "Table Lamp",
     "brand": null,
     "category": "home-decoration",
-    "object": "table lamp",
+    "tags": [
+      "home decor",
+      "lighting"
+    ],
     "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
     "priceCents": 4999,
     "currency": "USD",
@@ -169,11 +728,30 @@
     "image": "/catalog/p47.webp"
   },
   {
+    "id": "p48",
+    "title": "Bamboo Spatula",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+    "priceCents": 799,
+    "currency": "USD",
+    "rating": 3.27,
+    "stock": 37,
+    "image": "/catalog/p48.webp"
+  },
+  {
     "id": "p49",
     "title": "Black Aluminium Cup",
     "brand": null,
     "category": "kitchen-accessories",
-    "object": "cup",
+    "tags": [
+      "drinkware",
+      "cups"
+    ],
     "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
     "priceCents": 599,
     "currency": "USD",
@@ -182,11 +760,30 @@
     "image": "/catalog/p49.webp"
   },
   {
+    "id": "p50",
+    "title": "Black Whisk",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+    "priceCents": 999,
+    "currency": "USD",
+    "rating": 3.9,
+    "stock": 73,
+    "image": "/catalog/p50.webp"
+  },
+  {
     "id": "p51",
     "title": "Boxed Blender",
     "brand": null,
     "category": "kitchen-accessories",
-    "object": "blender",
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
     "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
     "priceCents": 3999,
     "currency": "USD",
@@ -195,11 +792,126 @@
     "image": "/catalog/p51.webp"
   },
   {
+    "id": "p52",
+    "title": "Carbon Steel Wok",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "cookware",
+      "woks"
+    ],
+    "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+    "priceCents": 2999,
+    "currency": "USD",
+    "rating": 4.05,
+    "stock": 40,
+    "image": "/catalog/p52.webp"
+  },
+  {
+    "id": "p53",
+    "title": "Chopping Board",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "cutting boards"
+    ],
+    "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+    "priceCents": 1299,
+    "currency": "USD",
+    "rating": 3.7,
+    "stock": 14,
+    "image": "/catalog/p53.webp"
+  },
+  {
+    "id": "p54",
+    "title": "Citrus Squeezer Yellow",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "juicers"
+    ],
+    "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+    "priceCents": 899,
+    "currency": "USD",
+    "rating": 4.63,
+    "stock": 22,
+    "image": "/catalog/p54.webp"
+  },
+  {
+    "id": "p55",
+    "title": "Egg Slicer",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "slicers"
+    ],
+    "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+    "priceCents": 699,
+    "currency": "USD",
+    "rating": 3.09,
+    "stock": 40,
+    "image": "/catalog/p55.webp"
+  },
+  {
+    "id": "p56",
+    "title": "Electric Stove",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen appliances",
+      "cooktops"
+    ],
+    "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+    "priceCents": 4999,
+    "currency": "USD",
+    "rating": 4.11,
+    "stock": 21,
+    "image": "/catalog/p56.webp"
+  },
+  {
+    "id": "p57",
+    "title": "Fine Mesh Strainer",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+    "priceCents": 999,
+    "currency": "USD",
+    "rating": 3.04,
+    "stock": 85,
+    "image": "/catalog/p57.webp"
+  },
+  {
+    "id": "p58",
+    "title": "Fork",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+    "priceCents": 399,
+    "currency": "USD",
+    "rating": 3.11,
+    "stock": 7,
+    "image": "/catalog/p58.webp"
+  },
+  {
     "id": "p59",
     "title": "Glass",
     "brand": null,
     "category": "kitchen-accessories",
-    "object": "drinking glass",
+    "tags": [
+      "drinkware",
+      "glasses"
+    ],
     "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
     "priceCents": 499,
     "currency": "USD",
@@ -208,11 +920,142 @@
     "image": "/catalog/p59.webp"
   },
   {
+    "id": "p60",
+    "title": "Grater Black",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "graters"
+    ],
+    "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+    "priceCents": 1099,
+    "currency": "USD",
+    "rating": 3.21,
+    "stock": 84,
+    "image": "/catalog/p60.webp"
+  },
+  {
+    "id": "p61",
+    "title": "Hand Blender",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
+    "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+    "priceCents": 3499,
+    "currency": "USD",
+    "rating": 3.86,
+    "stock": 84,
+    "image": "/catalog/p61.webp"
+  },
+  {
+    "id": "p62",
+    "title": "Ice Cube Tray",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "ice cube trays"
+    ],
+    "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+    "priceCents": 599,
+    "currency": "USD",
+    "rating": 4.71,
+    "stock": 13,
+    "image": "/catalog/p62.webp"
+  },
+  {
+    "id": "p63",
+    "title": "Kitchen Sieve",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+    "priceCents": 799,
+    "currency": "USD",
+    "rating": 3.09,
+    "stock": 68,
+    "image": "/catalog/p63.webp"
+  },
+  {
+    "id": "p64",
+    "title": "Knife",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "cutlery"
+    ],
+    "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+    "priceCents": 1499,
+    "currency": "USD",
+    "rating": 3.26,
+    "stock": 7,
+    "image": "/catalog/p64.webp"
+  },
+  {
+    "id": "p65",
+    "title": "Lunch Box",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "storage"
+    ],
+    "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+    "priceCents": 1299,
+    "currency": "USD",
+    "rating": 4.93,
+    "stock": 94,
+    "image": "/catalog/p65.webp"
+  },
+  {
+    "id": "p66",
+    "title": "Microwave Oven",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen appliances",
+      "microwaves"
+    ],
+    "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+    "priceCents": 8999,
+    "currency": "USD",
+    "rating": 4.82,
+    "stock": 59,
+    "image": "/catalog/p66.webp"
+  },
+  {
+    "id": "p67",
+    "title": "Mug Tree Stand",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+    "priceCents": 1599,
+    "currency": "USD",
+    "rating": 2.64,
+    "stock": 88,
+    "image": "/catalog/p67.webp"
+  },
+  {
     "id": "p68",
     "title": "Pan",
     "brand": null,
     "category": "kitchen-accessories",
-    "object": "frying pan",
+    "tags": [
+      "cookware",
+      "pans"
+    ],
     "description": "The Pan is a versatile and essential cookware item for frying, sautéing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
     "priceCents": 2499,
     "currency": "USD",
@@ -225,7 +1068,10 @@
     "title": "Plate",
     "brand": null,
     "category": "kitchen-accessories",
-    "object": "plate",
+    "tags": [
+      "dinnerware",
+      "plates"
+    ],
     "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
     "priceCents": 399,
     "currency": "USD",
@@ -234,11 +1080,94 @@
     "image": "/catalog/p69.webp"
   },
   {
+    "id": "p70",
+    "title": "Red Tongs",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "tongs"
+    ],
+    "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+    "priceCents": 699,
+    "currency": "USD",
+    "rating": 4.42,
+    "stock": 82,
+    "image": "/catalog/p70.webp"
+  },
+  {
+    "id": "p71",
+    "title": "Silver Pot With Glass Cap",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "cookware",
+      "pots"
+    ],
+    "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+    "priceCents": 3999,
+    "currency": "USD",
+    "rating": 3.22,
+    "stock": 40,
+    "image": "/catalog/p71.webp"
+  },
+  {
+    "id": "p72",
+    "title": "Slotted Turner",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "turners"
+    ],
+    "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and sautéing.",
+    "priceCents": 899,
+    "currency": "USD",
+    "rating": 3.4,
+    "stock": 88,
+    "image": "/catalog/p72.webp"
+  },
+  {
+    "id": "p73",
+    "title": "Spice Rack",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+    "priceCents": 1999,
+    "currency": "USD",
+    "rating": 4.87,
+    "stock": 79,
+    "image": "/catalog/p73.webp"
+  },
+  {
+    "id": "p74",
+    "title": "Spoon",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+    "priceCents": 499,
+    "currency": "USD",
+    "rating": 4.03,
+    "stock": 59,
+    "image": "/catalog/p74.webp"
+  },
+  {
     "id": "p75",
     "title": "Tray",
     "brand": null,
     "category": "kitchen-accessories",
-    "object": "tray",
+    "tags": [
+      "serveware",
+      "trays"
+    ],
     "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
     "priceCents": 1699,
     "currency": "USD",
@@ -247,11 +1176,46 @@
     "image": "/catalog/p75.webp"
   },
   {
+    "id": "p76",
+    "title": "Wooden Rolling Pin",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "baking"
+    ],
+    "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+    "priceCents": 1199,
+    "currency": "USD",
+    "rating": 2.92,
+    "stock": 80,
+    "image": "/catalog/p76.webp"
+  },
+  {
+    "id": "p77",
+    "title": "Yellow Peeler",
+    "brand": null,
+    "category": "kitchen-accessories",
+    "tags": [
+      "kitchen tools",
+      "peelers"
+    ],
+    "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+    "priceCents": 599,
+    "currency": "USD",
+    "rating": 4.24,
+    "stock": 35,
+    "image": "/catalog/p77.webp"
+  },
+  {
     "id": "p78",
     "title": "Apple MacBook Pro 14 Inch Space Grey",
     "brand": "Apple",
     "category": "laptops",
-    "object": "laptop",
+    "tags": [
+      "laptops",
+      "apple"
+    ],
     "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
     "priceCents": 199999,
     "currency": "USD",
@@ -264,7 +1228,9 @@
     "title": "Asus Zenbook Pro Dual Screen Laptop",
     "brand": "Asus",
     "category": "laptops",
-    "object": "laptop",
+    "tags": [
+      "laptops"
+    ],
     "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
     "priceCents": 179999,
     "currency": "USD",
@@ -277,7 +1243,9 @@
     "title": "Huawei Matebook X Pro",
     "brand": "Huawei",
     "category": "laptops",
-    "object": "laptop",
+    "tags": [
+      "laptops"
+    ],
     "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
     "priceCents": 139999,
     "currency": "USD",
@@ -290,7 +1258,9 @@
     "title": "Lenovo Yoga 920",
     "brand": "Lenovo",
     "category": "laptops",
-    "object": "laptop",
+    "tags": [
+      "laptops"
+    ],
     "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
     "priceCents": 109999,
     "currency": "USD",
@@ -303,7 +1273,9 @@
     "title": "New DELL XPS 13 9300 Laptop",
     "brand": "Dell",
     "category": "laptops",
-    "object": "laptop",
+    "tags": [
+      "laptops"
+    ],
     "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
     "priceCents": 149999,
     "currency": "USD",
@@ -316,7 +1288,10 @@
     "title": "Blue & Black Check Shirt",
     "brand": "Fashion Trends",
     "category": "mens-shirts",
-    "object": "shirt",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
     "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
     "priceCents": 2999,
     "currency": "USD",
@@ -329,7 +1304,10 @@
     "title": "Gigabyte Aorus Men Tshirt",
     "brand": "Gigabyte",
     "category": "mens-shirts",
-    "object": "t-shirt",
+    "tags": [
+      "clothing",
+      "men's t-shirts"
+    ],
     "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
     "priceCents": 2499,
     "currency": "USD",
@@ -342,7 +1320,10 @@
     "title": "Man Plaid Shirt",
     "brand": "Classic Wear",
     "category": "mens-shirts",
-    "object": "shirt",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
     "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
     "priceCents": 3499,
     "currency": "USD",
@@ -355,7 +1336,10 @@
     "title": "Man Short Sleeve Shirt",
     "brand": "Casual Comfort",
     "category": "mens-shirts",
-    "object": "shirt",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
     "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
     "priceCents": 1999,
     "currency": "USD",
@@ -368,7 +1352,10 @@
     "title": "Men Check Shirt",
     "brand": "Urban Chic",
     "category": "mens-shirts",
-    "object": "shirt",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
     "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
     "priceCents": 2799,
     "currency": "USD",
@@ -381,7 +1368,10 @@
     "title": "Nike Air Jordan 1 Red And Black",
     "brand": "Nike",
     "category": "mens-shoes",
-    "object": "sneakers",
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
     "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
     "priceCents": 14999,
     "currency": "USD",
@@ -390,11 +1380,30 @@
     "image": "/catalog/p88.webp"
   },
   {
+    "id": "p89",
+    "title": "Nike Baseball Cleats",
+    "brand": "Nike",
+    "category": "mens-shoes",
+    "tags": [
+      "footwear",
+      "sports cleats"
+    ],
+    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+    "priceCents": 7999,
+    "currency": "USD",
+    "rating": 3.88,
+    "stock": 12,
+    "image": "/catalog/p89.webp"
+  },
+  {
     "id": "p90",
     "title": "Puma Future Rider Trainers",
     "brand": "Puma",
     "category": "mens-shoes",
-    "object": "sneakers",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
     "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
     "priceCents": 8999,
     "currency": "USD",
@@ -407,7 +1416,10 @@
     "title": "Sports Sneakers Off White & Red",
     "brand": "Off White",
     "category": "mens-shoes",
-    "object": "sneakers",
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
     "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
     "priceCents": 11999,
     "currency": "USD",
@@ -420,7 +1432,10 @@
     "title": "Sports Sneakers Off White Red",
     "brand": "Off White",
     "category": "mens-shoes",
-    "object": "sneakers",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
     "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
     "priceCents": 10999,
     "currency": "USD",
@@ -433,7 +1448,10 @@
     "title": "Brown Leather Belt Watch",
     "brand": "Fashion Timepieces",
     "category": "mens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "leather watches"
+    ],
     "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
     "priceCents": 8999,
     "currency": "USD",
@@ -446,7 +1464,10 @@
     "title": "Longines Master Collection",
     "brand": "Longines",
     "category": "mens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
     "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
     "priceCents": 149999,
     "currency": "USD",
@@ -459,7 +1480,10 @@
     "title": "Rolex Cellini Date Black Dial",
     "brand": "Rolex",
     "category": "mens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
     "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
     "priceCents": 899999,
     "currency": "USD",
@@ -472,7 +1496,10 @@
     "title": "Rolex Cellini Moonphase",
     "brand": "Rolex",
     "category": "mens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
     "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
     "priceCents": 1299999,
     "currency": "USD",
@@ -485,7 +1512,10 @@
     "title": "Rolex Datejust",
     "brand": "Rolex",
     "category": "mens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
     "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
     "priceCents": 1099999,
     "currency": "USD",
@@ -498,7 +1528,10 @@
     "title": "Rolex Submariner Watch",
     "brand": "Rolex",
     "category": "mens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
     "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
     "priceCents": 1399999,
     "currency": "USD",
@@ -511,7 +1544,10 @@
     "title": "Amazon Echo Plus",
     "brand": "Amazon",
     "category": "mobile-accessories",
-    "object": "smart speaker",
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
     "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
     "priceCents": 9999,
     "currency": "USD",
@@ -524,7 +1560,10 @@
     "title": "Apple Airpods",
     "brand": "Apple",
     "category": "mobile-accessories",
-    "object": "wireless earbuds",
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
     "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
     "priceCents": 12999,
     "currency": "USD",
@@ -537,7 +1576,10 @@
     "title": "Apple AirPods Max Silver",
     "brand": "Apple",
     "category": "mobile-accessories",
-    "object": "headphones",
+    "tags": [
+      "electronics",
+      "over-ear headphones"
+    ],
     "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
     "priceCents": 54999,
     "currency": "USD",
@@ -546,11 +1588,30 @@
     "image": "/catalog/p101.webp"
   },
   {
+    "id": "p102",
+    "title": "Apple Airpower Wireless Charger",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "wireless chargers"
+    ],
+    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+    "priceCents": 7999,
+    "currency": "USD",
+    "rating": 3.68,
+    "stock": 1,
+    "image": "/catalog/p102.webp"
+  },
+  {
     "id": "p103",
     "title": "Apple HomePod Mini Cosmic Grey",
     "brand": "Apple",
     "category": "mobile-accessories",
-    "object": "smart speaker",
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
     "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
     "priceCents": 9999,
     "currency": "USD",
@@ -559,11 +1620,46 @@
     "image": "/catalog/p103.webp"
   },
   {
+    "id": "p104",
+    "title": "Apple iPhone Charger",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "chargers"
+    ],
+    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "priceCents": 1999,
+    "currency": "USD",
+    "rating": 4.15,
+    "stock": 31,
+    "image": "/catalog/p104.webp"
+  },
+  {
+    "id": "p105",
+    "title": "Apple MagSafe Battery Pack",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "power banks"
+    ],
+    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "priceCents": 9999,
+    "currency": "USD",
+    "rating": 3.62,
+    "stock": 1,
+    "image": "/catalog/p105.webp"
+  },
+  {
     "id": "p106",
     "title": "Apple Watch Series 4 Gold",
     "brand": "Apple",
     "category": "mobile-accessories",
-    "object": "smartwatch",
+    "tags": [
+      "electronics",
+      "smartwatches"
+    ],
     "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
     "priceCents": 34999,
     "currency": "USD",
@@ -576,7 +1672,10 @@
     "title": "Beats Flex Wireless Earphones",
     "brand": "Beats",
     "category": "mobile-accessories",
-    "object": "wireless earbuds",
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
     "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
     "priceCents": 4999,
     "currency": "USD",
@@ -585,11 +1684,93 @@
     "image": "/catalog/p107.webp"
   },
   {
+    "id": "p108",
+    "title": "iPhone 12 Silicone Case with MagSafe Plum",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "phone accessories"
+    ],
+    "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+    "priceCents": 2999,
+    "currency": "USD",
+    "rating": 3.62,
+    "stock": 69,
+    "image": "/catalog/p108.webp"
+  },
+  {
+    "id": "p109",
+    "title": "Monopod",
+    "brand": "TechGear",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "camera accessories"
+    ],
+    "description": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
+    "priceCents": 1999,
+    "currency": "USD",
+    "rating": 4.43,
+    "stock": 48,
+    "image": "/catalog/p109.webp"
+  },
+  {
+    "id": "p110",
+    "title": "Selfie Lamp with iPhone",
+    "brand": "GadgetMaster",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+    "priceCents": 1499,
+    "currency": "USD",
+    "rating": 3.55,
+    "stock": 58,
+    "image": "/catalog/p110.webp"
+  },
+  {
+    "id": "p111",
+    "title": "Selfie Stick Monopod",
+    "brand": "SnapTech",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+    "priceCents": 1299,
+    "currency": "USD",
+    "rating": 3.88,
+    "stock": 11,
+    "image": "/catalog/p111.webp"
+  },
+  {
+    "id": "p112",
+    "title": "TV Studio Camera Pedestal",
+    "brand": "ProVision",
+    "category": "mobile-accessories",
+    "tags": [
+      "electronics",
+      "camera accessories"
+    ],
+    "description": "The TV Studio Camera Pedestal is a professional-grade camera support system for smooth and precise camera movements in a studio setting. Ideal for broadcast and production.",
+    "priceCents": 49999,
+    "currency": "USD",
+    "rating": 2.78,
+    "stock": 15,
+    "image": "/catalog/p112.webp"
+  },
+  {
     "id": "p113",
     "title": "Generic Motorcycle",
     "brand": "Generic Motors",
     "category": "motorcycle",
-    "object": "motorcycle",
+    "tags": [
+      "motorcycles"
+    ],
     "description": "The Generic Motorcycle is a versatile and reliable bike suitable for various riding preferences. With a balanced design, it provides a comfortable and efficient riding experience.",
     "priceCents": 399999,
     "currency": "USD",
@@ -602,7 +1783,10 @@
     "title": "Kawasaki Z800",
     "brand": "Kawasaki",
     "category": "motorcycle",
-    "object": "motorcycle",
+    "tags": [
+      "motorcycles",
+      "sportbikes"
+    ],
     "description": "The Kawasaki Z800 is a powerful and agile sportbike known for its striking design and performance. It's equipped with advanced features, making it a favorite among motorcycle enthusiasts.",
     "priceCents": 899999,
     "currency": "USD",
@@ -615,7 +1799,10 @@
     "title": "MotoGP CI.H1",
     "brand": "MotoGP",
     "category": "motorcycle",
-    "object": "motorcycle",
+    "tags": [
+      "motorcycles",
+      "sportbikes"
+    ],
     "description": "The MotoGP CI.H1 is a high-performance motorcycle inspired by MotoGP racing technology. It offers cutting-edge features and precision engineering for an exhilarating riding experience.",
     "priceCents": 1499999,
     "currency": "USD",
@@ -628,7 +1815,10 @@
     "title": "Scooter Motorcycle",
     "brand": "ScootMaster",
     "category": "motorcycle",
-    "object": "motorcycle",
+    "tags": [
+      "motorcycles",
+      "scooters"
+    ],
     "description": "The Scooter Motorcycle is a practical and fuel-efficient bike ideal for urban commuting. It features a step-through design and user-friendly controls for easy maneuverability.",
     "priceCents": 299999,
     "currency": "USD",
@@ -641,7 +1831,10 @@
     "title": "Sportbike Motorcycle",
     "brand": "SpeedMaster",
     "category": "motorcycle",
-    "object": "motorcycle",
+    "tags": [
+      "motorcycles",
+      "sportbikes"
+    ],
     "description": "The Sportbike Motorcycle is designed for speed and agility, with a sleek and aerodynamic profile. It's suitable for riders looking for a dynamic and thrilling riding experience.",
     "priceCents": 749999,
     "currency": "USD",
@@ -650,11 +1843,94 @@
     "image": "/catalog/p117.webp"
   },
   {
+    "id": "p118",
+    "title": "Attitude Super Leaves Hand Soap",
+    "brand": "Attitude",
+    "category": "skin-care",
+    "tags": [
+      "personal care",
+      "hand soap"
+    ],
+    "description": "Attitude Super Leaves Hand Soap is a natural and nourishing hand soap enriched with the goodness of super leaves. It cleanses and moisturizes your hands, leaving them feeling fresh and soft.",
+    "priceCents": 899,
+    "currency": "USD",
+    "rating": 3.19,
+    "stock": 94,
+    "image": "/catalog/p118.webp"
+  },
+  {
+    "id": "p119",
+    "title": "Olay Ultra Moisture Shea Butter Body Wash",
+    "brand": "Olay",
+    "category": "skin-care",
+    "tags": [
+      "personal care",
+      "body wash"
+    ],
+    "description": "Olay Ultra Moisture Shea Butter Body Wash is a luxurious body wash that hydrates and nourishes your skin with the moisturizing power of shea butter. Enjoy a rich lather and silky-smooth skin.",
+    "priceCents": 1299,
+    "currency": "USD",
+    "rating": 4.51,
+    "stock": 34,
+    "image": "/catalog/p119.webp"
+  },
+  {
+    "id": "p120",
+    "title": "Vaseline Men Body and Face Lotion",
+    "brand": "Vaseline",
+    "category": "skin-care",
+    "tags": [
+      "personal care",
+      "body lotion"
+    ],
+    "description": "Vaseline Men Body and Face Lotion is a specially formulated lotion designed to provide long-lasting moisture to men's skin. It absorbs quickly and helps keep the skin hydrated and healthy.",
+    "priceCents": 999,
+    "currency": "USD",
+    "rating": 3.16,
+    "stock": 95,
+    "image": "/catalog/p120.webp"
+  },
+  {
+    "id": "p121",
+    "title": "iPhone 5s",
+    "brand": "Apple",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "priceCents": 19999,
+    "currency": "USD",
+    "rating": 2.83,
+    "stock": 25,
+    "image": "/catalog/p121.webp"
+  },
+  {
+    "id": "p122",
+    "title": "iPhone 6",
+    "brand": "Apple",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "priceCents": 29999,
+    "currency": "USD",
+    "rating": 3.41,
+    "stock": 60,
+    "image": "/catalog/p122.webp"
+  },
+  {
     "id": "p123",
     "title": "iPhone 13 Pro",
     "brand": "Apple",
     "category": "smartphones",
-    "object": "smartphone",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
     "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
     "priceCents": 109999,
     "currency": "USD",
@@ -667,7 +1943,10 @@
     "title": "iPhone X",
     "brand": "Apple",
     "category": "smartphones",
-    "object": "smartphone",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
     "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
     "priceCents": 89999,
     "currency": "USD",
@@ -676,11 +1955,30 @@
     "image": "/catalog/p124.webp"
   },
   {
+    "id": "p125",
+    "title": "Oppo A57",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "priceCents": 24999,
+    "currency": "USD",
+    "rating": 3.94,
+    "stock": 19,
+    "image": "/catalog/p125.webp"
+  },
+  {
     "id": "p126",
     "title": "Oppo F19 Pro Plus",
     "brand": "Oppo",
     "category": "smartphones",
-    "object": "smartphone",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
     "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
     "priceCents": 39999,
     "currency": "USD",
@@ -689,11 +1987,46 @@
     "image": "/catalog/p126.webp"
   },
   {
+    "id": "p127",
+    "title": "Oppo K1",
+    "brand": "Oppo",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "priceCents": 29999,
+    "currency": "USD",
+    "rating": 4.25,
+    "stock": 55,
+    "image": "/catalog/p127.webp"
+  },
+  {
+    "id": "p128",
+    "title": "Realme C35",
+    "brand": "Realme",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "priceCents": 14999,
+    "currency": "USD",
+    "rating": 4.2,
+    "stock": 48,
+    "image": "/catalog/p128.webp"
+  },
+  {
     "id": "p129",
     "title": "Realme X",
     "brand": "Realme",
     "category": "smartphones",
-    "object": "smartphone",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
     "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
     "priceCents": 29999,
     "currency": "USD",
@@ -702,11 +2035,62 @@
     "image": "/catalog/p129.webp"
   },
   {
+    "id": "p130",
+    "title": "Realme XT",
+    "brand": "Realme",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "priceCents": 34999,
+    "currency": "USD",
+    "rating": 4.58,
+    "stock": 80,
+    "image": "/catalog/p130.webp"
+  },
+  {
+    "id": "p131",
+    "title": "Samsung Galaxy S7",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "priceCents": 29999,
+    "currency": "USD",
+    "rating": 3.3,
+    "stock": 67,
+    "image": "/catalog/p131.webp"
+  },
+  {
+    "id": "p132",
+    "title": "Samsung Galaxy S8",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "priceCents": 49999,
+    "currency": "USD",
+    "rating": 4.4,
+    "stock": 0,
+    "image": "/catalog/p132.webp"
+  },
+  {
     "id": "p133",
     "title": "Samsung Galaxy S10",
     "brand": "Samsung",
     "category": "smartphones",
-    "object": "smartphone",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
     "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
     "priceCents": 69999,
     "currency": "USD",
@@ -715,11 +2099,110 @@
     "image": "/catalog/p133.webp"
   },
   {
+    "id": "p134",
+    "title": "Vivo S1",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "priceCents": 24999,
+    "currency": "USD",
+    "rating": 3.5,
+    "stock": 50,
+    "image": "/catalog/p134.webp"
+  },
+  {
+    "id": "p135",
+    "title": "Vivo V9",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "priceCents": 29999,
+    "currency": "USD",
+    "rating": 3.6,
+    "stock": 82,
+    "image": "/catalog/p135.webp"
+  },
+  {
+    "id": "p136",
+    "title": "Vivo X21",
+    "brand": "Vivo",
+    "category": "smartphones",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "priceCents": 49999,
+    "currency": "USD",
+    "rating": 4.26,
+    "stock": 7,
+    "image": "/catalog/p136.webp"
+  },
+  {
+    "id": "p137",
+    "title": "American Football",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "american football"
+    ],
+    "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport.",
+    "priceCents": 1999,
+    "currency": "USD",
+    "rating": 4.91,
+    "stock": 53,
+    "image": "/catalog/p137.webp"
+  },
+  {
+    "id": "p138",
+    "title": "Baseball Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball.",
+    "priceCents": 899,
+    "currency": "USD",
+    "rating": 2.57,
+    "stock": 100,
+    "image": "/catalog/p138.webp"
+  },
+  {
+    "id": "p139",
+    "title": "Baseball Glove",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "description": "The Baseball Glove is a protective glove worn by baseball players. It is designed to catch and field the baseball, providing players with comfort and control during the game.",
+    "priceCents": 2499,
+    "currency": "USD",
+    "rating": 3.96,
+    "stock": 22,
+    "image": "/catalog/p139.webp"
+  },
+  {
     "id": "p140",
     "title": "Basketball",
     "brand": null,
     "category": "sports-accessories",
-    "object": "basketball",
+    "tags": [
+      "sports equipment",
+      "basketball"
+    ],
     "description": "The Basketball is a standard ball used in basketball games. It is designed for dribbling, shooting, and passing in the game of basketball, suitable for both indoor and outdoor play.",
     "priceCents": 1499,
     "currency": "USD",
@@ -728,11 +2211,110 @@
     "image": "/catalog/p140.webp"
   },
   {
+    "id": "p141",
+    "title": "Basketball Rim",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "basketball"
+    ],
+    "description": "The Basketball Rim is a sturdy hoop and net assembly mounted on a basketball backboard. It provides a target for shooting and scoring in the game of basketball.",
+    "priceCents": 3999,
+    "currency": "USD",
+    "rating": 4.6,
+    "stock": 43,
+    "image": "/catalog/p141.webp"
+  },
+  {
+    "id": "p142",
+    "title": "Cricket Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "description": "The Cricket Ball is a hard leather ball used in the sport of cricket. It is bowled and batted in the game, and its hardness and seam contribute to the dynamics of cricket play.",
+    "priceCents": 1299,
+    "currency": "USD",
+    "rating": 3.53,
+    "stock": 30,
+    "image": "/catalog/p142.webp"
+  },
+  {
+    "id": "p143",
+    "title": "Cricket Bat",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "description": "The Cricket Bat is an essential piece of cricket equipment used by batsmen to hit the cricket ball. It is made of wood and comes in various sizes and designs.",
+    "priceCents": 2999,
+    "currency": "USD",
+    "rating": 3.17,
+    "stock": 98,
+    "image": "/catalog/p143.webp"
+  },
+  {
+    "id": "p144",
+    "title": "Cricket Helmet",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "description": "The Cricket Helmet is a protective headgear worn by cricket players, especially batsmen and wicketkeepers. It provides protection against fast bowling and bouncers.",
+    "priceCents": 4499,
+    "currency": "USD",
+    "rating": 4.69,
+    "stock": 10,
+    "image": "/catalog/p144.webp"
+  },
+  {
+    "id": "p145",
+    "title": "Cricket Wicket",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "description": "The Cricket Wicket is a set of three stumps and two bails, forming a wicket used in the sport of cricket. Batsmen aim to protect the wicket while scoring runs.",
+    "priceCents": 2999,
+    "currency": "USD",
+    "rating": 4.73,
+    "stock": 25,
+    "image": "/catalog/p145.webp"
+  },
+  {
+    "id": "p146",
+    "title": "Feather Shuttlecock",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "badminton"
+    ],
+    "description": "The Feather Shuttlecock is used in the sport of badminton. It features natural feathers and is designed for high-speed play, providing stability and accuracy during matches.",
+    "priceCents": 599,
+    "currency": "USD",
+    "rating": 2.85,
+    "stock": 95,
+    "image": "/catalog/p146.webp"
+  },
+  {
     "id": "p147",
     "title": "Football",
     "brand": null,
     "category": "sports-accessories",
-    "object": "football",
+    "tags": [
+      "sports equipment",
+      "football"
+    ],
     "description": "The Football, also known as a soccer ball, is the standard ball used in the sport of football (soccer). It is designed for kicking and passing in the game.",
     "priceCents": 1799,
     "currency": "USD",
@@ -741,11 +2323,78 @@
     "image": "/catalog/p147.webp"
   },
   {
+    "id": "p148",
+    "title": "Golf Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "golf"
+    ],
+    "description": "The Golf Ball is a small ball used in the sport of golf. It features dimples on its surface, providing aerodynamic lift and distance when struck by a golf club.",
+    "priceCents": 999,
+    "currency": "USD",
+    "rating": 4.3,
+    "stock": 84,
+    "image": "/catalog/p148.webp"
+  },
+  {
+    "id": "p149",
+    "title": "Iron Golf",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "golf"
+    ],
+    "description": "The Iron Golf is a type of golf club designed for various golf shots. It features a solid metal head and is used for approach shots, chipping, and other golfing techniques.",
+    "priceCents": 4999,
+    "currency": "USD",
+    "rating": 4.41,
+    "stock": 90,
+    "image": "/catalog/p149.webp"
+  },
+  {
+    "id": "p150",
+    "title": "Metal Baseball Bat",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "description": "The Metal Baseball Bat is a durable and lightweight baseball bat made from metal alloys. It is commonly used in baseball games for hitting and batting practice.",
+    "priceCents": 2999,
+    "currency": "USD",
+    "rating": 4.66,
+    "stock": 16,
+    "image": "/catalog/p150.webp"
+  },
+  {
+    "id": "p151",
+    "title": "Tennis Ball",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "tennis"
+    ],
+    "description": "The Tennis Ball is a standard ball used in the sport of tennis. It is designed for bouncing and hitting with tennis rackets during matches or practice sessions.",
+    "priceCents": 699,
+    "currency": "USD",
+    "rating": 4.06,
+    "stock": 28,
+    "image": "/catalog/p151.webp"
+  },
+  {
     "id": "p152",
     "title": "Tennis Racket",
     "brand": null,
     "category": "sports-accessories",
-    "object": "tennis racket",
+    "tags": [
+      "sports equipment",
+      "tennis"
+    ],
     "description": "The Tennis Racket is an essential piece of equipment used in the sport of tennis. It features a frame with strings and a grip, allowing players to hit the tennis ball.",
     "priceCents": 4999,
     "currency": "USD",
@@ -754,11 +2403,30 @@
     "image": "/catalog/p152.webp"
   },
   {
+    "id": "p153",
+    "title": "Volleyball",
+    "brand": null,
+    "category": "sports-accessories",
+    "tags": [
+      "sports equipment",
+      "volleyball"
+    ],
+    "description": "The Volleyball is a standard ball used in the sport of volleyball. It is designed for passing, setting, and spiking over the net during volleyball matches.",
+    "priceCents": 1199,
+    "currency": "USD",
+    "rating": 3.84,
+    "stock": 0,
+    "image": "/catalog/p153.webp"
+  },
+  {
     "id": "p154",
     "title": "Black Sun Glasses",
     "brand": "Fashion Shades",
     "category": "sunglasses",
-    "object": "sunglasses",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
     "description": "The Black Sun Glasses are a classic and stylish choice, featuring a sleek black frame and tinted lenses. They provide both UV protection and a fashionable look.",
     "priceCents": 2999,
     "currency": "USD",
@@ -771,7 +2439,10 @@
     "title": "Classic Sun Glasses",
     "brand": "Fashion Shades",
     "category": "sunglasses",
-    "object": "sunglasses",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
     "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
     "priceCents": 2499,
     "currency": "USD",
@@ -784,7 +2455,10 @@
     "title": "Green and Black Glasses",
     "brand": "Fashion Shades",
     "category": "sunglasses",
-    "object": "sunglasses",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
     "description": "The Green and Black Glasses feature a bold combination of green and black colors, adding a touch of vibrancy to your eyewear collection. They are both stylish and eye-catching.",
     "priceCents": 3499,
     "currency": "USD",
@@ -793,11 +2467,30 @@
     "image": "/catalog/p156.webp"
   },
   {
+    "id": "p157",
+    "title": "Party Glasses",
+    "brand": "Fashion Fun",
+    "category": "sunglasses",
+    "tags": [
+      "eyewear",
+      "party glasses"
+    ],
+    "description": "The Party Glasses are designed to add flair to your party outfit. With unique shapes or colorful frames, they're perfect for adding a playful touch to your look during celebrations.",
+    "priceCents": 1999,
+    "currency": "USD",
+    "rating": 2.79,
+    "stock": 86,
+    "image": "/catalog/p157.webp"
+  },
+  {
     "id": "p158",
     "title": "Sunglasses",
     "brand": "Fashion Shades",
     "category": "sunglasses",
-    "object": "sunglasses",
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
     "description": "The Sunglasses offer a classic and simple design with a focus on functionality. These sunglasses provide essential UV protection while maintaining a timeless look.",
     "priceCents": 2299,
     "currency": "USD",
@@ -810,7 +2503,10 @@
     "title": "iPad Mini 2021 Starlight",
     "brand": "Apple",
     "category": "tablets",
-    "object": "tablet",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
     "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
     "priceCents": 49999,
     "currency": "USD",
@@ -823,7 +2519,10 @@
     "title": "Samsung Galaxy Tab S8 Plus Grey",
     "brand": "Samsung",
     "category": "tablets",
-    "object": "tablet",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
     "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
     "priceCents": 59999,
     "currency": "USD",
@@ -836,7 +2535,10 @@
     "title": "Samsung Galaxy Tab White",
     "brand": "Samsung",
     "category": "tablets",
-    "object": "tablet",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
     "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
     "priceCents": 34999,
     "currency": "USD",
@@ -849,7 +2551,10 @@
     "title": "Blue Frock",
     "brand": null,
     "category": "tops",
-    "object": "dress",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
     "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
     "priceCents": 2999,
     "currency": "USD",
@@ -862,7 +2567,10 @@
     "title": "Girl Summer Dress",
     "brand": null,
     "category": "tops",
-    "object": "dress",
+    "tags": [
+      "clothing",
+      "girls' dresses"
+    ],
     "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
     "priceCents": 1999,
     "currency": "USD",
@@ -875,7 +2583,10 @@
     "title": "Gray Dress",
     "brand": null,
     "category": "tops",
-    "object": "dress",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
     "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
     "priceCents": 3499,
     "currency": "USD",
@@ -888,7 +2599,10 @@
     "title": "Short Frock",
     "brand": null,
     "category": "tops",
-    "object": "dress",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
     "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
     "priceCents": 2499,
     "currency": "USD",
@@ -901,7 +2615,10 @@
     "title": "Tartan Dress",
     "brand": null,
     "category": "tops",
-    "object": "dress",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
     "description": "The Tartan Dress features a classic tartan pattern, bringing a timeless and sophisticated touch to your wardrobe. Perfect for fall and winter, it adds a hint of traditional charm.",
     "priceCents": 3999,
     "currency": "USD",
@@ -910,11 +2627,96 @@
     "image": "/catalog/p166.webp"
   },
   {
+    "id": "p167",
+    "title": "300 Touring",
+    "brand": "Chrysler",
+    "category": "vehicle",
+    "tags": [
+      "sedans",
+      "vehicles"
+    ],
+    "description": "The 300 Touring is a stylish and comfortable sedan, known for its luxurious features and smooth performance.",
+    "priceCents": 2899999,
+    "currency": "USD",
+    "rating": 4.05,
+    "stock": 54,
+    "image": "/catalog/p167.webp"
+  },
+  {
+    "id": "p168",
+    "title": "Charger SXT RWD",
+    "brand": "Dodge",
+    "category": "vehicle",
+    "tags": [
+      "sedans",
+      "sports cars",
+      "vehicles"
+    ],
+    "description": "The Charger SXT RWD is a powerful and sporty rear-wheel-drive sedan, offering a blend of performance and practicality.",
+    "priceCents": 3299999,
+    "currency": "USD",
+    "rating": 2.58,
+    "stock": 57,
+    "image": "/catalog/p168.webp"
+  },
+  {
+    "id": "p169",
+    "title": "Dodge Hornet GT Plus",
+    "brand": "Dodge",
+    "category": "vehicle",
+    "tags": [
+      "hatchbacks",
+      "compact cars",
+      "vehicles"
+    ],
+    "description": "The Dodge Hornet GT Plus is a compact and agile hatchback, perfect for urban driving with a touch of sportiness.",
+    "priceCents": 2499999,
+    "currency": "USD",
+    "rating": 2.65,
+    "stock": 82,
+    "image": "/catalog/p169.webp"
+  },
+  {
+    "id": "p170",
+    "title": "Durango SXT RWD",
+    "brand": "Dodge",
+    "category": "vehicle",
+    "tags": [
+      "suvs",
+      "vehicles"
+    ],
+    "description": "The Durango SXT RWD is a spacious and versatile SUV, known for its strong performance and family-friendly features.",
+    "priceCents": 3699999,
+    "currency": "USD",
+    "rating": 4.07,
+    "stock": 95,
+    "image": "/catalog/p170.webp"
+  },
+  {
+    "id": "p171",
+    "title": "Pacifica Touring",
+    "brand": "Chrysler",
+    "category": "vehicle",
+    "tags": [
+      "minivans",
+      "vehicles"
+    ],
+    "description": "The Pacifica Touring is a stylish and well-equipped minivan, offering comfort and convenience for family journeys.",
+    "priceCents": 3199999,
+    "currency": "USD",
+    "rating": 3.62,
+    "stock": 53,
+    "image": "/catalog/p171.webp"
+  },
+  {
     "id": "p172",
     "title": "Blue Women's Handbag",
     "brand": "Fashionista",
     "category": "womens-bags",
-    "object": "handbag",
+    "tags": [
+      "fashion accessories",
+      "handbags"
+    ],
     "description": "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. With a vibrant blue color and multiple compartments, it combines fashion and functionality.",
     "priceCents": 4999,
     "currency": "USD",
@@ -927,7 +2729,10 @@
     "title": "Heshe Women's Leather Bag",
     "brand": "Heshe",
     "category": "womens-bags",
-    "object": "handbag",
+    "tags": [
+      "fashion accessories",
+      "leather bags"
+    ],
     "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
     "priceCents": 12999,
     "currency": "USD",
@@ -940,7 +2745,10 @@
     "title": "Prada Women Bag",
     "brand": "Prada",
     "category": "womens-bags",
-    "object": "handbag",
+    "tags": [
+      "fashion accessories",
+      "designer bags"
+    ],
     "description": "The Prada Women Bag is an iconic designer bag that exudes elegance and luxury. Crafted with precision and featuring the Prada logo, it's a statement piece for fashion enthusiasts.",
     "priceCents": 59999,
     "currency": "USD",
@@ -953,7 +2761,10 @@
     "title": "White Faux Leather Backpack",
     "brand": "Urban Chic",
     "category": "womens-bags",
-    "object": "backpack",
+    "tags": [
+      "fashion accessories",
+      "backpacks"
+    ],
     "description": "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. With a sleek white design and ample storage space, it's perfect for both casual and on-the-go styles.",
     "priceCents": 3999,
     "currency": "USD",
@@ -966,7 +2777,10 @@
     "title": "Women Handbag Black",
     "brand": "Elegance Collection",
     "category": "womens-bags",
-    "object": "handbag",
+    "tags": [
+      "fashion accessories",
+      "handbags"
+    ],
     "description": "The Women Handbag in Black is a classic and versatile accessory that complements various outfits. With a timeless black color and functional design, it's a must-have in every woman's wardrobe.",
     "priceCents": 5999,
     "currency": "USD",
@@ -979,7 +2793,10 @@
     "title": "Black Women's Gown",
     "brand": null,
     "category": "womens-dresses",
-    "object": "gown",
+    "tags": [
+      "clothing",
+      "gowns"
+    ],
     "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
     "priceCents": 12999,
     "currency": "USD",
@@ -992,7 +2809,11 @@
     "title": "Corset Leather With Skirt",
     "brand": null,
     "category": "womens-dresses",
-    "object": "corset dress",
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
     "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
     "priceCents": 8999,
     "currency": "USD",
@@ -1005,7 +2826,11 @@
     "title": "Corset With Black Skirt",
     "brand": null,
     "category": "womens-dresses",
-    "object": "corset dress",
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
     "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
     "priceCents": 7999,
     "currency": "USD",
@@ -1018,7 +2843,10 @@
     "title": "Dress Pea",
     "brand": null,
     "category": "womens-dresses",
-    "object": "dress",
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
     "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
     "priceCents": 4999,
     "currency": "USD",
@@ -1031,7 +2859,10 @@
     "title": "Marni Red & Black Suit",
     "brand": null,
     "category": "womens-dresses",
-    "object": "suit",
+    "tags": [
+      "clothing",
+      "suits"
+    ],
     "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
     "priceCents": 17999,
     "currency": "USD",
@@ -1044,7 +2875,10 @@
     "title": "Green Crystal Earring",
     "brand": null,
     "category": "womens-jewellery",
-    "object": "earrings",
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
     "description": "The Green Crystal Earring is a dazzling accessory that features a vibrant green crystal. With a classic design, it adds a touch of elegance to your ensemble, perfect for formal or special occasions.",
     "priceCents": 2999,
     "currency": "USD",
@@ -1057,7 +2891,10 @@
     "title": "Green Oval Earring",
     "brand": null,
     "category": "womens-jewellery",
-    "object": "earrings",
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
     "description": "The Green Oval Earring is a stylish and versatile accessory with a unique oval shape. Whether for casual or dressy occasions, its green hue and contemporary design make it a standout piece.",
     "priceCents": 2499,
     "currency": "USD",
@@ -1070,7 +2907,10 @@
     "title": "Tropical Earring",
     "brand": null,
     "category": "womens-jewellery",
-    "object": "earrings",
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
     "description": "The Tropical Earring is a fun and playful accessory inspired by tropical elements. Featuring vibrant colors and a lively design, it's perfect for adding a touch of summer to your look.",
     "priceCents": 1999,
     "currency": "USD",
@@ -1083,7 +2923,10 @@
     "title": "Black & Brown Slipper",
     "brand": "Comfort Trends",
     "category": "womens-shoes",
-    "object": "slippers",
+    "tags": [
+      "footwear",
+      "slippers"
+    ],
     "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
     "priceCents": 1999,
     "currency": "USD",
@@ -1096,7 +2939,10 @@
     "title": "Calvin Klein Heel Shoes",
     "brand": "Calvin Klein",
     "category": "womens-shoes",
-    "object": "high heels",
+    "tags": [
+      "footwear",
+      "heel shoes"
+    ],
     "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
     "priceCents": 7999,
     "currency": "USD",
@@ -1109,7 +2955,10 @@
     "title": "Golden Shoes Woman",
     "brand": "Fashion Diva",
     "category": "womens-shoes",
-    "object": "high heels",
+    "tags": [
+      "footwear",
+      "women's shoes"
+    ],
     "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
     "priceCents": 4999,
     "currency": "USD",
@@ -1122,7 +2971,10 @@
     "title": "Pampi Shoes",
     "brand": "Pampi",
     "category": "womens-shoes",
-    "object": "sneakers",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
     "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
     "priceCents": 2999,
     "currency": "USD",
@@ -1135,7 +2987,10 @@
     "title": "Red Shoes",
     "brand": "Fashion Express",
     "category": "womens-shoes",
-    "object": "high heels",
+    "tags": [
+      "footwear",
+      "women's shoes"
+    ],
     "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
     "priceCents": 3499,
     "currency": "USD",
@@ -1148,7 +3003,10 @@
     "title": "IWC Ingenieur Automatic Steel",
     "brand": "IWC",
     "category": "womens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
     "description": "The IWC Ingenieur Automatic Steel watch is a durable and sophisticated timepiece. With a stainless steel case and automatic movement, it combines precision and style for watch enthusiasts.",
     "priceCents": 499999,
     "currency": "USD",
@@ -1161,7 +3019,10 @@
     "title": "Rolex Cellini Moonphase",
     "brand": "Rolex",
     "category": "womens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
     "description": "The Rolex Cellini Moonphase watch is a masterpiece of horology. Featuring a moon phase complication, it showcases the craftsmanship and elegance that Rolex is renowned for.",
     "priceCents": 1599999,
     "currency": "USD",
@@ -1174,7 +3035,11 @@
     "title": "Rolex Datejust Women",
     "brand": "Rolex",
     "category": "womens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "luxury watches",
+      "women's watches"
+    ],
     "description": "The Rolex Datejust Women's watch is an iconic timepiece designed for women. With a timeless design and a date complication, it offers both elegance and functionality.",
     "priceCents": 1099999,
     "currency": "USD",
@@ -1187,7 +3052,10 @@
     "title": "Watch Gold for Women",
     "brand": "Fashion Gold",
     "category": "womens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "women's watches"
+    ],
     "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
     "priceCents": 79999,
     "currency": "USD",
@@ -1200,7 +3068,10 @@
     "title": "Women's Wrist Watch",
     "brand": "Fashion Co.",
     "category": "womens-watches",
-    "object": "wristwatch",
+    "tags": [
+      "watches",
+      "women's watches"
+    ],
     "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
     "priceCents": 12999,
     "currency": "USD",

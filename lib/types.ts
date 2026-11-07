@@ -1,14 +1,11 @@
-import type { Box } from "./crops";
 import type { PackedVector } from "./vector-codec";
-
-export type { Box };
 
 export type Product = {
   id: string;
   title: string;
   brand: string | null;
   category: string;
-  object: string;
+  tags: string[];
   description: string;
   priceCents: number;
   currency: string;
@@ -17,41 +14,53 @@ export type Product = {
   image: string;
 };
 
+export type MatchSignals = {
+  semantic: number;
+  visual: number | null;
+  categoryProb: number;
+  attributeBoost: number;
+  fused: number;
+  match: number;
+};
+
 export type ProductHit = Pick<
   Product,
-  "id" | "title" | "brand" | "object" | "priceCents" | "currency" | "image" | "rating"
-> & { score: number };
+  "id" | "title" | "brand" | "category" | "priceCents" | "currency" | "image" | "rating"
+> & { signals: MatchSignals };
 
-export type Detection = { object: string; score: number; box: Box };
+/** Embeddings of one piece of text, computed in the browser. */
+export type QueryVectors = { t: PackedVector; v?: PackedVector | null };
 
-export type SceneCrop = { box: Box; v: PackedVector };
-
-export type SceneContext = {
-  width: number;
-  height: number;
-  crops: SceneCrop[];
-  selection?: SceneCrop | null;
+export type QueryEmbeddings = {
+  /** The latest user message on its own. */
+  message: QueryVectors;
+  /** The active description plus the latest message, for refinements. */
+  combined?: QueryVectors | null;
 };
 
 export type SearchState = {
-  object?: string | null;
+  anchor?: string | null;
+  category?: string | null;
   color?: string | null;
   maxPriceCents?: number | null;
-  box?: Box | null;
   resultIds?: string[];
 };
 
 export type ChatMessage = { role: "user" | "assistant"; content: string };
 
+export type Understanding = {
+  description: string;
+  refinement: boolean;
+  categories: { name: string; prob: number }[];
+  color: string | null;
+  maxPriceCents: number | null;
+  signals: ("semantic" | "visual")[];
+  catalogSize: number;
+  retrievalMs: number;
+};
+
 export type Card =
-  | { type: "detections"; items: Detection[] }
-  | {
-      type: "products";
-      object: string | null;
-      color: string | null;
-      box: Box | null;
-      items: ProductHit[];
-    }
+  | { type: "products"; items: ProductHit[]; understanding: Understanding }
   | {
       type: "checkout";
       proposal: string;
